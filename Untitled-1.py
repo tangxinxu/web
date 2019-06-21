@@ -12,20 +12,6 @@ x(21)
 #else:
     #print('欢迎来到成人世界')
 
-print("hu" * 3)
-s = "python"
-for char in s:
-    print(s.index(char),char)
-for i in range(len(s)):
-    print(s[i])
-
-
-for i in range(12):
-    print(i)
-
-a_list = [1,2,3]
-a_list.append(5)
-print(a_list)
 
 import random
 y = 1
