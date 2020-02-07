@@ -1,2 +1,2 @@
-print('dasdasdasdasdsa')
-print('hhsdad')
+def leap_year():
+    pass
