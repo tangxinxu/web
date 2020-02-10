@@ -52,8 +52,8 @@ print('list中有%d个元素'%list_len)
 list_count = name_list.count('sam')
 print('list中sam出现的次数是%d次'% list_count)
 
-排序
-升序 sort
+# 排序
+# 升序 sort
 name_list.sort()
 num_list_01.sort()
 
@@ -67,3 +67,17 @@ num_list_01.reverse()
 
 print(name_list)
 print(num_list_01)
+
+list_temp = [3,4,5,6,7,99,77,72]
+search_name = input("请输入搜索的数字")
+
+if len(list_temp) == 0:
+    print("列表为空")
+else:
+    for i in list_temp:
+        if i == search_name:
+            print("列表中有")
+            continue
+        else:
+            print("列表中没有该数字")
+            break
